@@ -15,34 +15,32 @@
     <div class="container">
       <div class="info">
         <img src="avatar.jpg" alt="Фото" id="avatar">
-        
+
         <header>
           <h1>Никита Аверьянов</h1>
             <div class="info-text">
               <p>Моё первое образование - <strong>инженер-конструктор</strong>, но сейчас я осваиваю <em>новую</em> профессиию,
-                а именно профессию <em>frontend-разработчика</em></p>
+                а именно профессию <strong> <span class="underline-black">frontend-разработчика</span></strong></p>
               <p>Я люблю решать сложные задачи, ведь поиск их решения дает мне мотивацию
                 расти профессионально и любить то, чем я занимаюсь</p>
             </div>
-        </header>
         
-        <hr width="90%">
-
-        <div class="social">
-          <h3>Мои социальные сети:</h3>
-          <a href="https://vk.com/nikita_averyanov" target="_blank">Вконтакте</a>
-          |
-          <a href="https://t.me/dmitry_0017" target="_blank">Telegram</a>
-          |
-          <a href="https://github.com/Racio-begin" target="_blank">GitHub</a>
-        </div>
+          <div class="social">
+            <h3>Мои социальные сети:</h3>
+            <a href="https://vk.com/nikita_averyanov" target="_blank">Вконтакте</a>
+            |
+            <a href="https://t.me/dmitry_0017" target="_blank">Telegram</a>
+            |
+            <a href="https://github.com/Racio-begin" target="_blank">GitHub</a>
+          </div>
+        </header>
       </div>
 
       <hr width="90%">
       
       <div class="card hobby bg-green">
         <h2>Мои хобби</h2>
-        <ul list-style-type:square ;>
+        <ul>
           <li>Твердотельное моделирование</li>
           <li>3D-печать</li>
           <li>Туризм</li>
@@ -78,29 +76,30 @@
       <hr width="90%">
 
       <div class="callme">
-        <h2>Связаться со мной</h2>
-          <form action="/">
-            <div>
-              <label for="text">Ваше имя</label>
-              <input type="text" id="text" placeholder="Введите имя...">
+        <form action="/" class="form">
+          <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="text">Ваше имя</label>
+                <input type="text" id="text" placeholder="Введите имя...">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Ваш email</label>
+                <input type="email" id="email" placeholder="Введите email...">
+              </div>
             </div>
 
-            <div>
-              <label for="email">Ваш email</label>
-              <input type="email" id="email" placeholder="Введите email...">
-            </div>
-
-            <div>
+            <div class="form-group">
               <label for="message">Ваше сообщение</label>
-              <br>
               <textarea id="message" cols="40"  rows="4" placeholder="Введите сообщение..."></textarea>
             </div>
+
+          <button class="button" type="submit">Связаться!</button>
+        </form>
       </div>
 
-        <div>
-          <button type="submit">Связаться!</button>
-        </div>
-          </form>
     </div>
 
   </body>
