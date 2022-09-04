@@ -33,14 +33,14 @@ body {
 
 #avatar {
   border: none;
-  width: 220px;
+  width: 300px;
+  height: 300px;
   border-radius: 30px;
   box-shadow: 6px 6px 18px rgba(0, 0, 0, .25);
 }
 
 header {
   font-size: 16px;
-  margin-bottom: 20px;
   margin-left: 40px;
   /* display: block; */
 }
@@ -76,6 +76,10 @@ header {
 .social {
   text-align: center;
   margin-bottom: 20px;
+}
+
+.social img {
+  margin-right: 10px;
 }
 
 

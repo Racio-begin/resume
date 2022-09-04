@@ -14,10 +14,11 @@
   <body>
     <div class="container">
       <div class="info">
-        <img src="avatar.jpg" alt="Фото" id="avatar">
+        <img src="images/avatar-2.jpg" alt="Фото" id="avatar">
 
         <header>
           <h1>Никита Аверьянов</h1>
+          <h2>Frontend-разработчик</h2>
             <div class="info-text">
               <p>Моё первое образование - <strong>инженер-конструктор</strong>, но сейчас я осваиваю <em>новую</em> профессиию,
                 а именно профессию <strong> <span class="underline-black">frontend-разработчика</span></strong></p>
@@ -27,27 +28,15 @@
         
           <div class="social">
             <h3>Мои социальные сети:</h3>
-            <a href="https://vk.com/nikita_averyanov" target="_blank">Вконтакте</a>
-            |
-            <a href="https://t.me/dmitry_0017" target="_blank">Telegram</a>
-            |
-            <a href="https://github.com/Racio-begin" target="_blank">GitHub</a>
+            <a href="https://vk.com/nikita_averyanov" target="_blank"><img src="images/free-icon-font-vk-6422212.png" width="40" alt="Ссылка на VK" title="Vkontakte"></a>
+            <a href="https://t.me/dmitry_0017" target="_blank"><img src="images/free-icon-font-telegram-6422206.png" width="40" alt="Ссылка на Telegram" title="Telegram"></a>
+            <a href="https://github.com/Racio-begin" target="_blank"><img src="images/free-icon-font-github-6424084.png" width="40" alt="Ссылка на GitHub" title="GitHub"></a>
           </div>
         </header>
       </div>
 
       <hr width="90%">
       
-      <div class="card hobby bg-green">
-        <h2>Мои хобби</h2>
-        <ul>
-          <li>Твердотельное моделирование</li>
-          <li>3D-печать</li>
-          <li>Туризм</li>
-          <li>Страйкбол</li>
-        </ul>
-      </div>
-
       <div class="card work bg-blue">
         <h2>Опыт работы</h2>
         <table>
@@ -72,28 +61,38 @@
           </tbody>
         </table>
       </div>
+      
+      <div class="card hobby bg-green">
+        <h2>Мои хобби</h2>
+        <ul>
+          <li>Твердотельное моделирование</li>
+          <li>3D-печать</li>
+          <li>Туризм</li>
+          <li>Страйкбол</li>
+        </ul>
+      </div>
 
       <hr width="90%">
-
+      
       <div class="callme">
         <form action="/" class="form">
           <h2>Связаться со мной</h2>
-
-            <div class="form-row">
-              <div class="form-group">
-                <label for="text">Ваше имя</label>
-                <input type="text" id="text" placeholder="Введите имя...">
-              </div>
-
-              <div class="form-group">
-                <label for="email">Ваш email</label>
-                <input type="email" id="email" placeholder="Введите email...">
-              </div>
-            </div>
-
+          
+          <div class="form-row">
             <div class="form-group">
-              <label for="message">Ваше сообщение</label>
-              <textarea id="message" cols="40"  rows="4" placeholder="Введите сообщение..."></textarea>
+              <label for="text">Ваше имя</label>
+              <input type="text" id="text" placeholder="Введите имя...">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Ваш email</label>
+              <input type="email" id="email" placeholder="Введите email...">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Ваше сообщение</label>
+            <textarea id="message" cols="40"  rows="4" placeholder="Введите сообщение..."></textarea>
             </div>
 
           <button class="button" type="submit">Связаться!</button>
