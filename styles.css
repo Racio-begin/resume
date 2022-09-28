@@ -66,7 +66,7 @@ header {
 }
 
 .hobby ul li:nth-child(odd) {
-  background: #d2fce5;
+  background: #b7b7b7;
 }
 
 .hobby h2 {
@@ -82,7 +82,6 @@ header {
   margin-right: 10px;
 }
 
-
 a {
   color: #333;
   text-decoration: none;
@@ -92,7 +91,6 @@ a:hover {
   color: darkblue;
   opacity: 0.65;
   text-decoration: underline;
-
 }
 
 a:visited {
@@ -104,13 +102,11 @@ a:active {
 }
 
 .work thead tr{
-  background: #c5ffff;
+  background: #b7b7b7;
 }
 
 .work thead tr th {
-
-  border-top: 4px solid #c1ccff;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #aaa;
   padding: 5px;
 }
 
@@ -118,7 +114,6 @@ a:active {
   padding: 5px;
   width: 30%;
 }
-
 
 .work h2 {
   font-style: normal;
@@ -159,7 +154,6 @@ a:active {
   margin-right: 0;
 }
 
-
 .button {
   padding: 15px 20px;
   border: none;
@@ -195,6 +189,14 @@ a:active {
 
 .bg-blue {
   background: #d9ffff;
+}
+
+.bg-gray_1 {
+ background: #c9c9c9;
+}
+
+.bg-gray_2 {
+  background: #ccc;
 }
 
 .underline-black {
